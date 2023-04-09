@@ -1,18 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Spotify Clone</title>
-    <!-- don't forget to link your styles -->
+    <link rel="stylesheet" href="./styles/style.css">
   </head>
+
   <body>
-    Premium Discover Help Download Music for everyone. Spotify is now free on mobile, tablet and computer. Listen to the
-    right music, wherever you are. What’s on Spotify? Millions of Songs There are millions of songs on Spotify HD Music
-    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
-    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
-    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
-    own personal playlist. Or sit back and enjoy Radio.
+
+    <main>
+
+      <nav class="navbar">
+        <ul>
+          <img src="./images/spotify-logo.png" alt="spotify logo">
+          <div class="navbar-items">
+            <li><a href="https://www.spotify.com/br-pt/premium/?utm_source=app&utm_medium=desktop&utm_campaign=upgrade&ref=web_loggedout_premium_button" target="_blank">Premium</a></li>
+            <li><a href="#" target="_blank">Discover</a></li>
+            <li><a href="https://support.spotify.com/br-pt/" target="_blank">Help</a></li>
+            <li><a href="https://www.spotify.com/br-pt/download/windows/" target="_blank">Download</a></li>
+          </div>
+        </ul>
+      </nav>
+
+      <header>
+        <article class="hero-section">
+            <h1>Music for everyone.</h1>
+            <p>Spotify is now free on mobile, tablet and computer.</p>
+            <p>Listen to the right music, wherever you are.</p>
+        </article>
+      </header>
+
+      <section class="about">
+          <div class="title-container">
+            <h2>What's on Spotify?</h2>
+          </div>  
+          <div class="items-container">
+            <article class="about-item">
+              <div class="about-item-image">
+                <img src="./images/music-icon.png" alt="music icon">
+              </div>
+              <div class="about-item-text">
+                <h3>Millions of Songs</h3>
+                <p>There are millions of songs of Spotify</p>
+              </div>
+            </article class="about-item">
+            <article class="about-item">
+              <div class="about-item-image">
+                <img src="./images/high-quality-icon.png" alt="music frequency waves icon">
+              </div>
+              <div class="about-item-text">
+                <h3>HD Music</h3>
+                <p>Listen to music as if you were listening live</p>
+              </div>
+            </article>
+            <article class="about-item">
+              <div class="about-item-image">
+                <img src="./images/devices-icon.png" alt="icon with two mobile devices">
+              </div>
+              <div class="about-item-text">
+                <h3>Stream Everywhere</h3>
+                <p>Stream music on your smartphone, tablet or computer</p>
+              </div>
+            </article>
+          </div>
+      </section>
+
+      <section class="features">
+        <article class="features-left-column">
+          <div class="title-container">
+            <h2>It's as yeezy as Kanye West.</h2>
+          </div>
+          <div class="feature-item">
+            <h3>Search</h3>
+            <p>Know what you want to listen to? just search and hit play.</p>
+          </div>  
+          <div class="feature-item">  
+            <h3>Browse</h3>
+            <p>Check out the lastest charts, brand new release and great playlists for right now.</p>
+          </div>
+          <div class="feature-item">
+            <h3>Discover</h3>
+            <p>Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</p>
+          </div>
+        </article>
+        <div class="features-middle-column">
+          <img src="./images/spotify-icon-white.png" alt="spotify-icon-white">
+        </div>
+        <div class="features-right-column">
+          <img src="./images/spotify-app.jpg" alt="in-app screen featuring artist Kanye West">
+        </div>
+      </section>
+
+    </main>
+
   </body>
+
 </html>
